@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const data =  require('./dictionary.json')
 
+console.log(data);
+
 router.get('/', async(req, res)=>{
 
     try{
